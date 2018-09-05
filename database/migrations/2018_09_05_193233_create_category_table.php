@@ -19,6 +19,7 @@ class CreateCategoryTable extends Migration
             $table->index('title');
             $table->string('description', 300)->nullable();
             $table->timestamps();
+            // comment
         });
     }
 
